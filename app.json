@@ -1,0 +1,8 @@
+{
+  "name": "timestamp-microservice",
+  "description": "Unix Timestamp Microservice using Node.js and Express.js",
+  "repository": "https://github.com/valmassoi/timestamp-microservice",
+  "logo": "",
+  "keywords": "",
+  "image": ""
+}
