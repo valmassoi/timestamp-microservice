@@ -44,7 +44,7 @@ app.get("/:input", function(request, response) {
   response.writeHead(200, { "Content-Type": "application/json" });
   var input = request.params.input
   var time = timeDecoder(input)
-  response.end(time);
+  response.end(time); //To output JSON we can use: response.send(object)
 });
 
 app.get("*", function(request, response) {
