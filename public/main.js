@@ -52,5 +52,6 @@ app.get("*", function(request, response) {
   response.end("404!");
 });
 
-http.createServer(app).listen(8080);
+var port = process.env.PORT || 8080; //for heroku deploy
+http.createServer(app).listen(port);
 console.log("Server Running");
