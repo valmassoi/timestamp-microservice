@@ -2,7 +2,7 @@
   "name": "timestamp-microservice",
   "description": "Unix Timestamp Microservice using Node.js and Express.js",
   "repository": "https://github.com/valmassoi/timestamp-microservice",
-  "logo": "",
-  "keywords": "",
+  "logo": "http://blog.toright.com/wp-content/uploads/2015/03/nodejs-logo.png",
+  "keywords": ["node"],
   "image": ""
 }
