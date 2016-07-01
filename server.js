@@ -34,7 +34,7 @@ function timeDecoder(input) {
 }
 
 app.get('/', (req, res) => {
-  res.sendFile('index.html', { root: `${__dirname}/public/` })
+  res.sendFile(`${__dirname}/public/index.html`)
 })
 
 app.all('*', (request, response, next) => {
