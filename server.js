@@ -32,7 +32,11 @@ function timeDecoder(input) {
 
   return JSON.stringify({ unix, natural })
 }
-app.use(express.static(`${__dirname}/public/`))
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', { root: `${__dirname}/public/` })
+})
+
 app.all('*', (request, response, next) => {
   next()
 })
